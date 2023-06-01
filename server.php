@@ -7,7 +7,7 @@ $email    = "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'epiz_34272147_project1');
+$db = mysqli_connect('localhost', 'root', '''project1');
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
